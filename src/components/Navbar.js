@@ -3,28 +3,28 @@ import logo from '../images/Logo.png';
 export default function Navbar(){
 
     return(
-        <nav class="navbar navbar-expand-sm bg-light  ">
+        <nav className="navbar navbar-expand-sm bg-light  ">
 
-  <div class="container-fluid">
+  <div className="container-fluid">
   
-    <ul class="navbar-nav">
-    <li class="nav-item">
-        <Link class="nav-link" to='/'><img className="navbar-brand" src={logo} /></Link>
+    <ul className="navbar-nav">
+    <li className="nav-item">
+        <Link className="nav-link" to='/'><img classNameName="navbar-brand" alt='logo' src={logo} /></Link>
       </li>
-      <li class="nav-item">
-        <Link class="nav-link" to='/'>Home</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to='/'>Home</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+      <li className="nav-item">
+        <Link className="nav-link" to='/'>About</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Reserveration</a>
+      <li className="nav-item">
+        <Link className="nav-link"to='/ress'>Reserveration</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Order Online</a>
+      <li className="nav-item">
+        <Link className="nav-link"to='/'>Order Online</Link>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Login</a>
+      <li className="nav-item">
+        <Link className="nav-link" to='/login'>Login</Link>
       </li>
     </ul>
   </div>

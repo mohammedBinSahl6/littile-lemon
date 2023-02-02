@@ -105,7 +105,7 @@ nav img{
   transform: translateY(-30px);
 }
 form{
-  width: 80%;
+  width: 40%;
 }
 .form-holder{
   background-color: #495e57;
@@ -130,4 +130,80 @@ height: 95vh;
 
 .lemon-text{
   color: var(--p2);
+}
+
+.login{
+  background-color: var(--p1);
+  height: 100vh;
+}
+
+.login form{
+  width: 30%;
+}
+
+.reg form{
+  width: 30%;
+}
+.reg{
+  background-color: #495e57;
+  height: 100vh;
+}
+
+.res-card{
+  width: 90%;
+  height: auto;
+  border: 1px solid #000;
+  border-top: 5px solid #f4ce14;
+  box-shadow: 2px 2px 8px #000;
+}
+
+.res-time{
+  color: #495e57;
+
+}
+
+.occ{
+  color: var(--s);
+  font-weight: 500;
+
+}
+
+.booked-msg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.61);
+}
+
+.booked-msg .booked-msg-body{
+  width: 50%;
+  background-color: var(--s2);
+
+}
+
+
+@media(max-width:600px){
+
+  .navbar-nav li{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: baseline !important;
+  }
+
+  header img{
+display: none;
+  }
+
+  form{
+    width: 90%;
+  }
+  .booked-msg-body{
+    width: 90% !important;
+  }
+
+  .booked-msg-body .f-holder{
+    flex-direction: column;
+  }
 }
